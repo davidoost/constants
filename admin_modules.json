@@ -1,0 +1,112 @@
+[
+  {
+    "Name": "Configuration",
+    "Code": "CONFIGURATION",
+    "IsActive": true,
+    "Data": {
+      "Title": "Configuration",
+      "Url": "/configuration", 
+      "Actions":[]
+    },
+    "Roles": ["NB"]
+  },
+  {
+    "Name": "Customers",
+    "Code": "CRM",
+    "IsActive": true,
+    "Data": {
+      "Title": "Customers",
+      "Url": "/crm", 
+      "Actions":[]
+    },
+    "Roles": ["NB"]
+  },
+  {
+    "Name": "Finance",
+    "Code": "FINANCIALS",
+    "IsActive": true,
+    "Data": {
+      "Title": "Finance",
+      "Url": "/financials", 
+      "Actions":[]
+    },
+    "Roles": ["NB"]
+  },
+  {
+    "Name": "Orders",
+    "Code": "ORDERS",
+    "IsActive": true,
+    "Data": {
+      "Title": "Orders",
+      "Url": "/orders", 
+      "Actions":[]
+    },
+    "Roles": ["NB"]
+  },
+  {
+    "Name": "Organizations",
+    "Code": "ORGANIZATIONS",
+    "IsActive": true,
+    "Data": {
+      "Title": "Organizations",
+      "Url": "/organizations", 
+      "Actions":[]
+    },
+    "Roles": ["NB"]
+  },
+  {
+    "Name": "Products",
+    "Code": "PIM",
+    "IsActive": true,
+    "Data": {
+      "Title": "Products",
+      "Url": "/pim", 
+      "Actions":[]
+    },
+    "Roles": ["NB"]
+  },
+  {
+    "Name": "Promotions",
+    "Code": "DISCOUNTS",
+    "IsActive": true,
+    "Data": {
+      "Title": "Promotions",
+      "Url": "/promotions", 
+      "Actions":[]
+    },
+    "Roles": ["NB"]
+  },
+  {
+    "Name": "Settings",
+    "Code": "SETIINGS",
+    "IsActive": true,
+    "Data": {
+      "Title": "Settings",
+      "Url": "/settings", 
+      "Actions":[]
+    },
+    "Roles": ["NB"]
+  },
+  {
+    "Name": "Stock",
+    "Code": "STOCKMANAGEMENT",
+    "IsActive": true,
+    "Data": {
+      "Title": "Stock",
+      "Url": "/stock-management", 
+      "Actions":[]
+    },
+    "Roles": ["NB"]
+  },
+  {
+    "Name": "Tasks",
+    "Code": "TASKS",
+    "IsActive": true,
+    "Data": {
+      "Title": "Tasks",
+      "Url": "/tasks", 
+      "Actions":[]
+    },
+    "Roles": ["NB"]
+  },
+]
