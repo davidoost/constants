@@ -5,7 +5,7 @@
     "IsActive": true,
     "Data": {
       "Title": "Configuration",
-      "Url": "/configuration", 
+      "Url": "configuration", 
       "Actions":[]
     },
     "Roles": []
@@ -16,7 +16,7 @@
     "IsActive": true,
     "Data": {
       "Title": "Customers",
-      "Url": "/crm", 
+      "Url": "crm", 
       "Actions":[]
     },
     "Roles": []
@@ -27,7 +27,7 @@
     "IsActive": true,
     "Data": {
       "Title": "Finance",
-      "Url": "/financials", 
+      "Url": "financials", 
       "Actions":[]
     },
     "Roles": []
@@ -38,7 +38,7 @@
     "IsActive": true,
     "Data": {
       "Title": "Orders",
-      "Url": "/orders", 
+      "Url": "orders", 
       "Actions":[]
     },
     "Roles": []
@@ -49,7 +49,7 @@
     "IsActive": true,
     "Data": {
       "Title": "Organizations",
-      "Url": "/organizations", 
+      "Url": "organizations", 
       "Actions":[]
     },
     "Roles": []
@@ -60,7 +60,7 @@
     "IsActive": true,
     "Data": {
       "Title": "Products",
-      "Url": "/pim", 
+      "Url": "pim", 
       "Actions":[]
     },
     "Roles": []
@@ -71,7 +71,7 @@
     "IsActive": true,
     "Data": {
       "Title": "Promotions",
-      "Url": "/promotions", 
+      "Url": "promotions", 
       "Actions":[]
     },
     "Roles": []
@@ -82,7 +82,7 @@
     "IsActive": true,
     "Data": {
       "Title": "Settings",
-      "Url": "/settings", 
+      "Url": "settings", 
       "Actions":[]
     },
     "Roles": []
@@ -93,7 +93,7 @@
     "IsActive": true,
     "Data": {
       "Title": "Stock",
-      "Url": "/stock-management", 
+      "Url": "stock-management", 
       "Actions":[]
     },
     "Roles": []
@@ -104,7 +104,7 @@
     "IsActive": true,
     "Data": {
       "Title": "Tasks",
-      "Url": "/tasks", 
+      "Url": "tasks", 
       "Actions":[]
     },
     "Roles": []
