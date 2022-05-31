@@ -8,7 +8,7 @@
       "Url": "/configuration", 
       "Actions":[]
     },
-    "Roles": ['NB']
+    "Roles": ["NB"]
   },
   {
     "Name": "Customers",
@@ -19,7 +19,7 @@
       "Url": "/crm", 
       "Actions":[]
     },
-    "Roles": ['NB']
+    "Roles": ["NB"]
   },
   {
     "Name": "Finance",
@@ -30,7 +30,7 @@
       "Url": "/financials", 
       "Actions":[]
     },
-    "Roles": ['NB']
+    "Roles": ["NB"]
   },
   {
     "Name": "Orders",
@@ -41,7 +41,7 @@
       "Url": "/orders", 
       "Actions":[]
     },
-    "Roles": ['NB']
+    "Roles": ["NB"]
   },
   {
     "Name": "Organizations",
@@ -52,7 +52,7 @@
       "Url": "/organizations", 
       "Actions":[]
     },
-    "Roles": ['NB']
+    "Roles": ["NB"]
   },
   {
     "Name": "Products",
@@ -63,7 +63,7 @@
       "Url": "/pim", 
       "Actions":[]
     },
-    "Roles": ['NB']
+    "Roles": ["NB"]
   },
   {
     "Name": "Promotions",
@@ -74,7 +74,7 @@
       "Url": "/promotions", 
       "Actions":[]
     },
-    "Roles": ['NB']
+    "Roles": ["NB"]
   },
   {
     "Name": "Settings",
@@ -85,7 +85,7 @@
       "Url": "/settings", 
       "Actions":[]
     },
-    "Roles": ['NB']
+    "Roles": ["NB"]
   },
   {
     "Name": "Stock",
@@ -96,7 +96,7 @@
       "Url": "/stock-management", 
       "Actions":[]
     },
-    "Roles": ['NB']
+    "Roles": ["NB"]
   },
   {
     "Name": "Tasks",
@@ -107,6 +107,6 @@
       "Url": "/tasks", 
       "Actions":[]
     },
-    "Roles": ['NB']
+    "Roles": ["NB"]
   }
 ]
