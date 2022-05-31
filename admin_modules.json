@@ -5,10 +5,10 @@
     "IsActive": true,
     "Data": {
       "Title": "Configuration",
-      "Url": "configuration", 
+      "Url": "/configuration", 
       "Actions":[]
     },
-    "Roles": []
+    "Roles": ['NB']
   },
   {
     "Name": "Customers",
@@ -16,10 +16,10 @@
     "IsActive": true,
     "Data": {
       "Title": "Customers",
-      "Url": "crm", 
+      "Url": "/crm", 
       "Actions":[]
     },
-    "Roles": []
+    "Roles": ['NB']
   },
   {
     "Name": "Finance",
@@ -27,10 +27,10 @@
     "IsActive": true,
     "Data": {
       "Title": "Finance",
-      "Url": "financials", 
+      "Url": "/financials", 
       "Actions":[]
     },
-    "Roles": []
+    "Roles": ['NB']
   },
   {
     "Name": "Orders",
@@ -38,10 +38,10 @@
     "IsActive": true,
     "Data": {
       "Title": "Orders",
-      "Url": "orders", 
+      "Url": "/orders", 
       "Actions":[]
     },
-    "Roles": []
+    "Roles": ['NB']
   },
   {
     "Name": "Organizations",
@@ -49,10 +49,10 @@
     "IsActive": true,
     "Data": {
       "Title": "Organizations",
-      "Url": "organizations", 
+      "Url": "/organizations", 
       "Actions":[]
     },
-    "Roles": []
+    "Roles": ['NB']
   },
   {
     "Name": "Products",
@@ -60,10 +60,10 @@
     "IsActive": true,
     "Data": {
       "Title": "Products",
-      "Url": "pim", 
+      "Url": "/pim", 
       "Actions":[]
     },
-    "Roles": []
+    "Roles": ['NB']
   },
   {
     "Name": "Promotions",
@@ -71,10 +71,10 @@
     "IsActive": true,
     "Data": {
       "Title": "Promotions",
-      "Url": "promotions", 
+      "Url": "/promotions", 
       "Actions":[]
     },
-    "Roles": []
+    "Roles": ['NB']
   },
   {
     "Name": "Settings",
@@ -82,10 +82,10 @@
     "IsActive": true,
     "Data": {
       "Title": "Settings",
-      "Url": "settings", 
+      "Url": "/settings", 
       "Actions":[]
     },
-    "Roles": []
+    "Roles": ['NB']
   },
   {
     "Name": "Stock",
@@ -93,10 +93,10 @@
     "IsActive": true,
     "Data": {
       "Title": "Stock",
-      "Url": "stock-management", 
+      "Url": "/stock-management", 
       "Actions":[]
     },
-    "Roles": []
+    "Roles": ['NB']
   },
   {
     "Name": "Tasks",
@@ -104,9 +104,9 @@
     "IsActive": true,
     "Data": {
       "Title": "Tasks",
-      "Url": "tasks", 
+      "Url": "/tasks", 
       "Actions":[]
     },
-    "Roles": []
+    "Roles": ['NB']
   }
 ]
