@@ -1,0 +1,28 @@
+{
+    "BlobUrl": "",
+    "Import": [
+        {"ID": "Template::::5:Import-Layout"},
+        {"ID": "Template::::1:DiscountCouponEmail"},
+        {"ID": "Template::::1:CustomerCreated"},
+        {"ID": "Template::::1:EmployeeCreated"},
+        {"ID": "Template::::1:MagicLink"},
+        {"ID": "Template::::1:PasswordResetRequested"},
+        {"ID": "Template::::1:PasswordResetCompleted"},
+        {"ID": "Template::::1:StockReservation"},
+        {"ID": "Template::::1:OrderPlacedConfirmation"},
+        {"ID": "Template::::8:ProductPriceLabel"},
+        {"ID": "Template::::8:OrderReservationReceipt"},
+        {"ID": "Template::::1:OrderShippedConfirmation"},
+        {"ID": "Template::::1:PickupOrderPlacedConfirmation"},
+        {"ID": "Template::::1:PeriodClosingReport"},
+        {"ID": "Template::::8:CashDeposit"},
+        {"ID": "Template::::8:ShipFromStorePickedReceipt"},
+        {"ID": "Template::::8:ShipFromStoreDeliveryReceipt"},
+        {"ID": "Template::::8:ThermalReceipt"},
+        {"ID": "Template::::8:CashDeposit"},
+        {"ID": "Template::::1:PickupReminder"},
+        {"ID": "Template::::8:SuspendedOrder"},
+        {"ID": "Template::::5:GiftCardOrderShippedConfirmation"},
+        {"ID": "Template::::1:DigitalGiftCardMessage"}
+    ]
+ }
