@@ -5,8 +5,7 @@
     "IsActive": true,
     "Data": {
       "Title": "Configuration",
-      "Url": "/configuration", 
-      "Actions":[]
+      "Url": "/configuration",
     }
   },
   {
@@ -15,8 +14,7 @@
     "IsActive": true,
     "Data": {
       "Title": "Customers",
-      "Url": "/crm", 
-      "Actions":[]
+      "Url": "/crm",
     }
   },
   {
@@ -25,8 +23,7 @@
     "IsActive": true,
     "Data": {
       "Title": "Finance",
-      "Url": "/financials", 
-      "Actions":[]
+      "Url": "/financials",
     }
   },
   {
@@ -35,8 +32,7 @@
     "IsActive": true,
     "Data": {
       "Title": "Orders",
-      "Url": "/orders", 
-      "Actions":[]
+      "Url": "/orders",
     }
   },
   {
@@ -45,8 +41,7 @@
     "IsActive": true,
     "Data": {
       "Title": "Organizations",
-      "Url": "/organizations", 
-      "Actions":[]
+      "Url": "/organizations",
     }
   },
   {
@@ -55,8 +50,7 @@
     "IsActive": true,
     "Data": {
       "Title": "Products",
-      "Url": "/pim", 
-      "Actions":[]
+      "Url": "/pim",
     }
   },
   {
@@ -65,8 +59,7 @@
     "IsActive": true,
     "Data": {
       "Title": "Promotions",
-      "Url": "/promotions", 
-      "Actions":[]
+      "Url": "/promotions",
     }
   },
   {
@@ -75,8 +68,7 @@
     "IsActive": true,
     "Data": {
       "Title": "Settings",
-      "Url": "/settings", 
-      "Actions":[]
+      "Url": "/settings",
     }
   },
   {
@@ -85,8 +77,7 @@
     "IsActive": true,
     "Data": {
       "Title": "Stock",
-      "Url": "/stock-management", 
-      "Actions":[]
+      "Url": "/stock-management",
     }
   },
   {
@@ -95,8 +86,7 @@
     "IsActive": true,
     "Data": {
       "Title": "Tasks",
-      "Url": "/tasks", 
-      "Actions":[]
+      "Url": "/tasks",
     }
   }
 ]
