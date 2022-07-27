@@ -88,5 +88,14 @@
       "Title": "Tasks",
       "Url": "/tasks",
     }
+  },
+  {
+    "Name": "Monitors",
+    "Code": "MONITORS",
+    "IsActive": true,
+    "Data": {
+      "Title": "Monitors",
+      "Url": "/monitors",
+    }
   }
 ]
