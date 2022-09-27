@@ -64,7 +64,7 @@
   },
   {
     "Name": "Settings",
-    "Code": "SETIINGS",
+    "Code": "SETTINGS",
     "IsActive": true,
     "Data": {
       "Title": "Settings",
