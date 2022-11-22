@@ -1,0 +1,5 @@
+{
+  "App:Webshop:OUSetBackendID": "webshops",
+  "App:Webshop:ProductSearchTopLogicalLevel": "root",
+  "App:Webshop:DefaultPageSize": 18
+}
