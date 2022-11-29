@@ -1,14 +1,5 @@
 [
   {
-    "Name": "Configuration",
-    "Code": "CONFIGURATION",
-    "IsActive": true,
-    "Data": {
-      "Title": "Configuration",
-      "Url": "/configuration",
-    }
-  },
-  {
     "Name": "Customers",
     "Code": "CRM",
     "IsActive": true,
@@ -63,15 +54,6 @@
     }
   },
   {
-    "Name": "Settings",
-    "Code": "SETTINGS",
-    "IsActive": true,
-    "Data": {
-      "Title": "Settings",
-      "Url": "/settings",
-    }
-  },
-  {
     "Name": "Stock",
     "Code": "STOCKMANAGEMENT",
     "IsActive": true,
@@ -80,6 +62,7 @@
       "Url": "/stock-management",
     }
   },
+  /*
   {
     "Name": "Tasks",
     "Code": "TASKS",
@@ -89,6 +72,7 @@
       "Url": "/tasks",
     }
   },
+  */
   {
     "Name": "Monitors",
     "Code": "MONITORS",
