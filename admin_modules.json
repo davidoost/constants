@@ -62,7 +62,6 @@
       "Url": "/stock-management",
     }
   },
-  /*
   {
     "Name": "Tasks",
     "Code": "TASKS",
@@ -72,7 +71,6 @@
       "Url": "/tasks",
     }
   },
-  */
   {
     "Name": "Monitors",
     "Code": "MONITORS",
@@ -80,6 +78,15 @@
     "Data": {
       "Title": "Monitors",
       "Url": "/monitors",
+    }
+  },
+  {
+    "Name": "Compliance",
+    "Code": "COMPLIANCE",
+    "IsActive": true,
+    "Data": {
+      "Title": "Compliance",
+      "Url": "/compliance",
     }
   }
 ]
