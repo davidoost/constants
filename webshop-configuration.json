@@ -1,6 +1,4 @@
 {
-  "App:Webshop:OUSetBackendID": "webshops",
-  "App:Webshop:ProductSearchTopLogicalLevel": "root",
-  "App:Webshop:DefaultPageSize": 18,
-  "App:Webshop:PSP": "Adyen"
+  "App:Webshop:DefaultPageSize": 18, // standard search pagesize
+  "App:Webshop:PSP": "Adyen" // desired payment service provider
 }
