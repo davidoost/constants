@@ -1,0 +1,117 @@
+{#subject} Thank you for your order {#/subject}
+
+<tr class="big-text">
+    <td>
+        <table>
+            <tr>
+                <td>
+                    <h1
+                        style="font-family: 'Sk-Modernist', 'Helvetica', sans-serif; font-weight: 700; font-size: 24px; line-height: 28px; margin: 0;">
+                        Hi {{>User.FirstName}},</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p
+                        style="font-family: 'Inter', 'Helvetica', sans-serif; font-weight: 400; font-size: 14px; line-height: 22px; margin: 0;">
+                        We've received you order and will contact you as soon as your items have been
+                        shipped. You can find your purchase information below.</p>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+<tr class="small-text">
+    <td>
+        <table>
+            <tr>
+                <td>
+                    <h1
+                        style="font-family: 'Sk-Modernist', 'Helvetica', sans-serif; font-weight: 700; font-size: 17px; line-height: 22px; margin: 0;">
+                        Order number #{{>Order.ID}}</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p
+                        style="font-family: 'Inter', 'Helvetica', sans-serif; font-weight: 400; font-size: 12px; line-height: 18px; margin: 0;">
+                        {{:~date(PlacementDateTime, 'DD-MM-YYYY, HH:mm', LanguageID-CountryID)}}</p>
+                </td>
+            </tr>
+        </table>
+    </td>
+</tr>
+
+<tr class="items">
+    <td>
+        <table>
+            {{for Order.Lines}}
+            <tr class="item">
+                <td class="product-image">
+                    <img width="100px" style="border-radius: 6px;"
+                        src="https://raw.githubusercontent.com/davidoost/constants/main/products/placeholder100.jpg" />
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td class="no-padding">
+                                <p
+                                    style="font-family: 'Inter', 'Helvetica', sans-serif; font-weight: 600; font-size: 14px; line-height: 22px; margin: 0;">
+                                    {{>Description}} x {{>TotalQuantityToShip}}</p>
+                            </td>
+                            <td class="no-padding">
+                                <p
+                                    style="font-family: 'Inter', 'Helvetica', sans-serif; font-weight: 600; font-size: 14px; line-height: 22px; margin: 0;">
+                                    {{>TotalAmountInTax}}</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <table>
+                                    <tr>
+                                        <td class="no-padding">
+                                            <p
+                                                style="font-family: 'Inter', 'Helvetica', sans-serif; font-weight: 400; font-size: 12px; line-height: 18px; margin: 0; color: #768898;">
+                                                Size:</p>
+                                        </td>
+                                        <td class="no-padding">
+                                            <p
+                                                style="font-family: 'Inter', 'Helvetica', sans-serif; font-weight: 400; font-size: 12px; line-height: 18px; margin: 0; color: #768898;">
+                                                {{>ProductProperties.size}}</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="no-padding">
+                                            <p
+                                                style="font-family: 'Inter', 'Helvetica', sans-serif; font-weight: 400; font-size: 12px; line-height: 18px; margin: 0; color: #768898;">
+                                                Color:</p>
+                                        </td>
+                                        <td class="no-padding">
+                                            <p
+                                                style="font-family: 'Inter', 'Helvetica', sans-serif; font-weight: 400; font-size: 12px; line-height: 18px; margin: 0; color: #768898;">
+                                                {{>ProductProperties.color}}</p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td class="no-padding">
+                                            <p
+                                                style="font-family: 'Inter', 'Helvetica', sans-serif; font-weight: 400; font-size: 12px; line-height: 18px; margin: 0; color: #768898;">
+                                                Shipping:</p>
+                                        </td>
+                                        <td class="no-padding">
+                                            <p
+                                                style="font-family: 'Inter', 'Helvetica', sans-serif; font-weight: 400; font-size: 12px; line-height: 18px; margin: 0; color: #768898;">
+                                                {{if LineActionType = 1}} Pickup in store {{else}} Delivery {{/if}}</p>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            {{/for}}
+        </table>
+    </td>
+</tr>
