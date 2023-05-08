@@ -1,0 +1,58 @@
+{#subject}Welcome to New Black{#/subject}
+
+<table role="presentation" border="0" cellspacing="24px" width="100%" style="background-color: #FFFFFF;">
+    <tr>
+        <td width="100%">
+            <table role="presentation" border="0" cellspacing="0" width="100%">
+                <tr>
+                    <td style="font-family: Verdana, sans-serif; font-weight:700; font-style: normal; font-weight: 700; font-size: 28px; line-height: 32px; color: #0E1720;">
+                        {{if FirstName}} Hi {{>FirstName}}, {{else}} Hi there, {{/if}}
+                    </td>
+                </tr>
+                <tr height="8px">
+                    <td></td>
+                </tr>
+                <tr>
+                    <td
+                        style="font-family: Arial, sans-serif; font-style: normal; font-weight: 400; font-size: 15px; line-height: 20px; color: #0E1720;">
+                        We would like to welcome you to the New Black family. An employee account has just been created for you using this e-mail address. Use this account to log in to Admin Suite or any of our in-store applications.</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td width="100%">
+            <table role="presentation" border="0" cellspacing="0" width="100%">
+                <tr>
+                    <td>
+                        <a href="https://euw.nbsc.test.eva-online.cloud/login">
+                            <button
+                                style="height: 56px; width: 100%; border: 0; border-radius: 3px; background-color: #007AFF; font-family: Verdana, sans-serif; font-weight:700; font-size: 16px; line-height: 22px; color: #FFFFFF; cursor: pointer;">
+                                To Admin Suite
+                            </button>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr>
+        <td width="100%">
+            <table role="presentation" border="0" cellspacing="0" width="100%">
+                <tr>
+                    <td
+                        style="font-family: Arial, sans-serif; font-style: normal; font-weight: 400; font-size: 15px; line-height: 20px; color: #0E1720;">
+                        Find your auto-generated password below, we recommend you change this at your earliest convenience.</td>
+                </tr>
+                <tr height="8px">
+                    <td></td>
+                </tr>
+                <tr>
+                    <td
+                        style="font-family: Arial, sans-serif; font-style: normal; font-weight: 400; font-size: 15px; line-height: 20px; color: #758088; word-break: break-all;">
+                        {{>Password}}</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+</table>
