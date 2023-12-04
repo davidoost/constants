@@ -1,0 +1,34 @@
+:root {
+
+    --border-radius: 3px;
+
+    --font-family: 'Inter', sans-serif;
+
+    --font-size-body-sm: 13px;
+    --font-size-body-md: 15px;
+    --font-size-body-lg: 17px;
+    --font-size-heading-1: 40px;
+    --font-size-heading-2: 28px;
+    --font-size-heading-3: 19px;
+    --font-size-label: 11px;
+    --font-size-button: 16px;
+
+    --line-height-body-sm: 13px;
+    --line-height-body-md: 15px;
+    --line-height-body-lg: 17px;
+    --line-height-heading-1: 40px;
+    --line-height-heading-2: 28px;
+    --line-height-heading-3: 19px;
+    --line-height-label: 11px;
+    --line-height-button: 16px;
+
+    --font-weight-headings: 600;
+    --font-weight-body: 400;
+    --font-weight-label: 400;
+    --font-weight-button: 600;
+
+}
+
+.heading-1 {
+    
+}
