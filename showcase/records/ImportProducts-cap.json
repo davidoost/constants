@@ -1,0 +1,194 @@
+{
+	"SystemID": "Insomnia",
+	"Products": [
+		{
+			"ID": "0004",
+			"Name": "Dad Cap",
+			"Brand": "Nerd.",
+			"TaxCode": "Hats and Caps",
+			"Type": {
+				"Stock": false
+			},
+			"Content": [
+				{
+					"PublicationStatuses": [
+						"public"
+					],
+					"Images": [
+						{
+							"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/products/nerd/cap_01.jpg",
+							"IsPrimaryImage": true
+						},
+						{
+							"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/products/nerd/cap_02.jpg"
+						}
+					],
+					"CustomContent": {
+						"styling_advice": "a black dad cap"
+					}
+				},
+				{
+					"LanguageID": "en",
+					"Name": "Dad Cap",
+					"ShortDescription": "Cotton twill dad cap with embroidered Nerd logo.",
+					"CustomContent": {
+						"materials": [
+							"98% Cotton",
+							"2% Elastane",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "nl",
+					"Name": "Dad Cap",
+					"ShortDescription": "Keperstof dad cap met geborduurd Nerd logo.",
+					"CustomContent": {
+						"materials": [
+							"98% Katoen",
+							"2% Elastaan",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "de",
+					"Name": "Dad Cap",
+					"ShortDescription": "Dadcap aus Baumwolle mit gesticktem Nerd logo.",
+					"CustomContent": {
+						"materials": [
+							"98% Baumwolle",
+							"2% Elastan",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "fr",
+					"Name": "Dad Cap",
+					"ShortDescription": "Casquette 'Dad' en sergé de coton avec logo Nerd brodé.",
+					"CustomContent": {
+						"materials": [
+							"98% Coton",
+							"2% Élasthanne",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "ro",
+					"Name": "Dad Cap",
+					"ShortDescription": "Șapcă de bumbac cu țesătură diagonală și logo 'Nerd' brodat.",
+					"CustomContent": {
+						"materials": [
+							"98% Bumbac",
+							"2% Elastan",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "cs",
+					"Name": "Dad Cap",
+					"ShortDescription": "Bavlněná keprová kšiltovka s vyšitým logem Nerd.",
+					"CustomContent": {
+						"materials": [
+							"98% Bavlna",
+							"2% Elastan",
+							"0% Keců"
+						]
+					}
+				}
+			],
+			"Variations": {
+				"Property": "color",
+				"LogicalLevel": "color",
+				"Products": [
+					{
+						"ID": "0004-1",
+						"Name": "Dad Cap",
+						"VariationValues": [
+							{
+								"Value": "Black"
+							},
+							{
+								"LanguageID": "en",
+								"Value": "Black"
+							},
+							{
+								"LanguageID": "nl",
+								"Value": "Zwart"
+							},
+							{
+								"LanguageID": "de",
+								"Value": "Schwarz"
+							},
+							{
+								"LanguageID": "fr",
+								"Value": "Noir"
+							},
+							{
+								"LanguageID": "ro",
+								"Value": "Negru"
+							},
+							{
+								"LanguageID": "cs",
+								"Value": "Černá"
+							}
+						],
+						"TaxCode": "Hats and Caps",
+						"Type": {
+							"Stock": false
+						},
+						"Variations": {
+							"Property": "size",
+							"LogicalLevel": "SKU",
+							"Products": [
+								{
+									"ID": "0004-1-978020137915",
+									"Name": "Dad Cap",
+									"VariationValues": [
+										{
+											"Value": "One Size"
+										},
+										{
+											"LanguageID": "en",
+											"Value": "One Size"
+										},
+										{
+											"LanguageID": "nl",
+											"Value": "One Size"
+										},
+										{
+											"LanguageID": "de",
+											"Value": "Eine Größe"
+										},
+										{
+											"LanguageID": "fr",
+											"Value": "Taille unique"
+										},
+										{
+											"LanguageID": "ro",
+											"Value": "Mărime universală"
+										},
+										{
+											"LanguageID": "cs",
+											"Value": "Jedna velikost"
+										}
+									],
+									"TaxCode": "Hats and Caps",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020137915"
+									]
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

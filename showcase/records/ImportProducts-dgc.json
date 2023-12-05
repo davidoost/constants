@@ -1,0 +1,287 @@
+{
+	"SystemID": "Insomnia",
+	"Products": [
+		{
+			"ID": "0006-25-978020137917",
+			"Name": "Digital Gift Card",
+			"Brand": "Nerd.",
+			"TaxCode": "Zero",
+			"Type": {
+				"Stock": false,
+				"Giftcard": true
+			},
+			"GiftCardType": "APIGIFTCARD",
+			"GiftCardIsDigital": true,
+			"Barcodes": [
+				"978020137917"
+			],
+			"Content": [
+				{
+					"PublicationStatuses": [
+						"public"
+					],
+					"Images": [
+						{
+							"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/products/nerd/nerd-dgc.jpg",
+							"IsPrimaryImage": true
+						}
+					]
+				},
+				{
+					"LanguageID": "en",
+					"Name": "Digital Gift Card",
+					"ShortDescription": "The perfect gift for when you can't find a perfect gift.",
+					"CustomContent": {
+						"materials": [
+							"100% Digital",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "nl",
+					"Name": "Digitale Cadeaukaart",
+					"ShortDescription": "Het perfecte cadeau voor wanneer je geen perfect cadeau kan vinden.",
+					"CustomContent": {
+						"materials": [
+							"100% Digitaal",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "de",
+					"Name": "Digitaler Geschenkgutschein",
+					"ShortDescription": "Das perfekte Geschenk, wenn du kein perfektes Geschenk finden kannst.",
+					"CustomContent": {
+						"materials": [
+							"100% Digital",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "fr",
+					"Name": "Carte Cadeau Numérique",
+					"ShortDescription": "Le cadeau parfait pour les situations ou vous ne trouvez pas le cadeau parfait.",
+					"CustomContent": {
+						"materials": [
+							"100% Digital",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "ro",
+					"Name": "Card Cadou Digital",
+					"ShortDescription": "Cadoul perfect pentru când nu găsești cadoul perfect.",
+					"CustomContent": {
+						"materials": [
+							"100% Digital",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "cs",
+					"Name": "Digitální Dárkový Poukaz",
+					"ShortDescription": "Ideální dárek, když nemůžete najít ideální dárek.",
+					"CustomContent": {
+						"materials": [
+							"100% Digitální",
+							"0% Keců"
+						]
+					}
+				}
+			]
+		},
+		{
+			"ID": "0006-50-978020137918",
+			"Name": "Digital Gift Card",
+			"Brand": "Nerd.",
+			"TaxCode": "Zero",
+			"Type": {
+				"Stock": false,
+				"Giftcard": true
+			},
+			"GiftCardType": "APIGIFTCARD",
+			"GiftCardIsDigital": true,
+			"Barcodes": [
+				"978020137918"
+			],
+			"Content": [
+				{
+					"PublicationStatuses": [
+						"public"
+					],
+					"Images": [
+						{
+							"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/products/nerd/nerd-dgc.jpg",
+							"IsPrimaryImage": true
+						}
+					]
+				},
+				{
+					"LanguageID": "en",
+					"Name": "Digital Gift Card",
+					"ShortDescription": "The perfect gift for when you can't find a perfect gift.",
+					"CustomContent": {
+						"materials": [
+							"100% Digital",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "nl",
+					"Name": "Digitale Cadeaukaart",
+					"ShortDescription": "Het perfecte cadeau voor wanneer je geen perfect cadeau kan vinden.",
+					"CustomContent": {
+						"materials": [
+							"100% Digitaal",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "de",
+					"Name": "Digitaler Geschenkgutschein",
+					"ShortDescription": "Das perfekte Geschenk, wenn du kein perfektes Geschenk finden kannst.",
+					"CustomContent": {
+						"materials": [
+							"100% Digital",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "fr",
+					"Name": "Carte Cadeau Numérique",
+					"ShortDescription": "Le cadeau parfait pour les situations ou vous ne trouvez pas le cadeau parfait.",
+					"CustomContent": {
+						"materials": [
+							"100% Digital",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "ro",
+					"Name": "Card Cadou Digital",
+					"ShortDescription": "Cadoul perfect pentru când nu găsești cadoul perfect.",
+					"CustomContent": {
+						"materials": [
+							"100% Digital",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "cs",
+					"Name": "Digitální Dárkový Poukaz",
+					"ShortDescription": "Ideální dárek, když nemůžete najít ideální dárek.",
+					"CustomContent": {
+						"materials": [
+							"100% Digitální",
+							"0% Keců"
+						]
+					}
+				}
+			]
+		},
+		{
+			"ID": "0006-100-978020137919",
+			"Name": "Digital Gift Card",
+			"Brand": "Nerd.",
+			"TaxCode": "Zero",
+			"Type": {
+				"Stock": false,
+				"Giftcard": true
+			},
+			"GiftCardType": "APIGIFTCARD",
+			"GiftCardIsDigital": true,
+			"Barcodes": [
+				"978020137919"
+			],
+			"Content": [
+				{
+					"PublicationStatuses": [
+						"public"
+					],
+					"Images": [
+						{
+							"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/products/nerd/nerd-dgc.jpg",
+							"IsPrimaryImage": true
+						}
+					]
+				},
+				{
+					"LanguageID": "en",
+					"Name": "Digital Gift Card",
+					"ShortDescription": "The perfect gift for when you can't find a perfect gift.",
+					"CustomContent": {
+						"materials": [
+							"100% Digital",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "nl",
+					"Name": "Digitale Cadeaukaart",
+					"ShortDescription": "Het perfecte cadeau voor wanneer je geen perfect cadeau kan vinden.",
+					"CustomContent": {
+						"materials": [
+							"100% Digitaal",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "de",
+					"Name": "Digitaler Geschenkgutschein",
+					"ShortDescription": "Das perfekte Geschenk, wenn du kein perfektes Geschenk finden kannst.",
+					"CustomContent": {
+						"materials": [
+							"100% Digital",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "fr",
+					"Name": "Carte Cadeau Numérique",
+					"ShortDescription": "Le cadeau parfait pour les situations ou vous ne trouvez pas le cadeau parfait.",
+					"CustomContent": {
+						"materials": [
+							"100% Digital",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "ro",
+					"Name": "Card Cadou Digital",
+					"ShortDescription": "Cadoul perfect pentru când nu găsești cadoul perfect.",
+					"CustomContent": {
+						"materials": [
+							"100% Digital",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "cs",
+					"Name": "Digitální Dárkový Poukaz",
+					"ShortDescription": "Ideální dárek, když nemůžete najít ideální dárek.",
+					"CustomContent": {
+						"materials": [
+							"100% Digitální",
+							"0% Keců"
+						]
+					}
+				}
+			]
+		}
+	]
+}

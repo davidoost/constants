@@ -1,0 +1,234 @@
+{
+	"SystemID": "Insomnia",
+	"Products": [
+		{
+			"ID": "0003",
+			"Name": "Longsleeve Polo Shirt",
+			"Brand": "Nerd.",
+			"TaxCode": "General Clothing",
+			"Type": {
+				"Stock": false
+			},
+			"Content": [
+				{
+					"PublicationStatuses": [
+						"public"
+					],
+					"Images": [
+						{
+							"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/products/nerd/polo_01.jpg",
+							"IsPrimaryImage": true
+						},
+						{
+							"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/products/nerd/polo_02.jpg"
+						}
+					],
+					"CustomContent": {
+						"styling_advice": "a black longsleeve polo shirt"
+					}
+				},
+				{
+					"LanguageID": "en",
+					"Name": "Longsleeve Polo Shirt",
+					"ShortDescription": "Luxury stretch longsleeve polo shirt with embroidered Nerd logo.",
+					"CustomContent": {
+						"materials": [
+							"95% Ringspun Combed Cotton",
+							"5% Elastane",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "nl",
+					"Name": "Polo Shirt met lange mouwen",
+					"ShortDescription": "Luxe stretch polo shirt met lange mouwen en geborduurd Nerd logo.",
+					"CustomContent": {
+						"materials": [
+							"95% Gekamd Katoen",
+							"5% Elastaan",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "de",
+					"Name": "Langärmeliges Polohemd",
+					"ShortDescription": "Hochwertiges Langarm-Polohemd mit gesticktem Nerd-Logo.",
+					"CustomContent": {
+						"materials": [
+							"95% Ringgesponnene Baumwolle",
+							"5% Elastan",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "fr",
+					"Name": "Polo à manches longues",
+					"ShortDescription": "Polo à manches longues extensible de luxe avec logo Nerd brodé.",
+					"CustomContent": {
+						"materials": [
+							"95% Coton Peigné Ringspun",
+							"5% Élasthanne",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "ro",
+					"Name": "Tricou polo cu mânecă lungă",
+					"ShortDescription": "Tricou polo stretch de lux cu mânecă lungă și logo 'Nerd' brodat.",
+					"CustomContent": {
+						"materials": [
+							"95% Bumbac Tors",
+							"5% Elastan",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "cs",
+					"Name": "Polokošile s dlouhým rukávem",
+					"ShortDescription": "Luxusní strečové polo tričko s dlouhým rukávem s vyšitým logem Nerd.",
+					"CustomContent": {
+						"materials": [
+							"95% Česaná bavlna Ringspun",
+							"5% Elastan",
+							"0% Keců"
+						]
+					}
+				}
+			],
+			"Variations": {
+				"Property": "color",
+				"LogicalLevel": "color",
+				"Products": [
+					{
+						"ID": "0003-1",
+						"Name": "Unisex Hoodie",
+						"VariationValues": [
+							{
+								"Value": "Black"
+							},
+							{
+								"LanguageID": "en",
+								"Value": "Black"
+							},
+							{
+								"LanguageID": "nl",
+								"Value": "Zwart"
+							},
+							{
+								"LanguageID": "de",
+								"Value": "Schwarz"
+							},
+							{
+								"LanguageID": "fr",
+								"Value": "Noir"
+							},
+							{
+								"LanguageID": "ro",
+								"Value": "Negru"
+							},
+							{
+								"LanguageID": "cs",
+								"Value": "Černá"
+							}
+						],
+						"TaxCode": "General Clothing",
+						"Type": {
+							"Stock": false
+						},
+						"Variations": {
+							"Property": "size",
+							"LogicalLevel": "SKU",
+							"Products": [
+								{
+									"ID": "0003-1-978020137910",
+									"Name": "Longsleeve Polo Shirt",
+									"VariationValues": [
+										{
+											"Value": "S"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020137910"
+									]
+								},
+								{
+									"ID": "0003-1-978020137911",
+									"Name": "Longsleeve Polo Shirt",
+									"VariationValues": [
+										{
+											"Value": "M"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020137911"
+									]
+								},
+								{
+									"ID": "0003-1-978020137912",
+									"Name": "Longsleeve Polo Shirt",
+									"VariationValues": [
+										{
+											"Value": "L"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020137912"
+									]
+								},
+								{
+									"ID": "0003-1-978020137913",
+									"Name": "Longsleeve Polo Shirt",
+									"VariationValues": [
+										{
+											"Value": "XL"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020137913"
+									]
+								},
+								{
+									"ID": "0003-1-978020137914",
+									"Name": "Longsleeve Polo Shirt",
+									"VariationValues": [
+										{
+											"Value": "XXL"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020137914"
+									]
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

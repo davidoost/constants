@@ -1,0 +1,237 @@
+{
+	"SystemID": "Insomnia",
+	"Products": [
+		{
+			"ID": "0002",
+			"Name": "Unisex Hoodie",
+			"Brand": "Nerd.",
+			"TaxCode": "General Clothing",
+			"Type": {
+				"Stock": false
+			},
+			"Content": [
+				{
+					"PublicationStatuses": [
+						"public"
+					],
+					"Images": [
+						{
+							"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/products/nerd/hoodie_01.jpg",
+							"IsPrimaryImage": true
+						},
+						{
+							"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/products/nerd/hoodie_02.jpg"
+						},
+						{
+							"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/products/nerd/hoodie_03.jpg"
+						}
+					],
+					"CustomContent": {
+						"styling_advice": "a black hoodie"
+					}
+				},
+				{
+					"LanguageID": "en",
+					"Name": "Unisex Hoodie",
+					"ShortDescription": "Iconic unisex hoodie sweatshirt with embroidered Nerd logo.",
+					"CustomContent": {
+						"materials": [
+							"85% Organic Cotton",
+							"15% Recycled Polyester",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "nl",
+					"Name": "Unisex Hoodie",
+					"ShortDescription": "Iconische unisex hoodie sweatshirt met geborduurd Nerd logo.",
+					"CustomContent": {
+						"materials": [
+							"85% Organisch Katoen",
+							"15% Gerecycled Polyester",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "de",
+					"Name": "Unisex Hoodie",
+					"ShortDescription": "Ikonisches Unisex-Kapuzen-Sweatshirt mit gesticktem Nerd-Logo.",
+					"CustomContent": {
+						"materials": [
+							"85% Bio-Baumwolle",
+							"15% Recyceltes Polyester",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "fr",
+					"Name": "Sweat à capuche unisexe",
+					"ShortDescription": "Sweat à capuche iconique unisexe avec logo Nerd brodé.",
+					"CustomContent": {
+						"materials": [
+							"85% Coton Organique",
+							"15% Polyester Recyclé",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "ro",
+					"Name": "Hanorac Unisex",
+					"ShortDescription": "Hanorac unisex cu glugă și logo 'Nerd' brodat.",
+					"CustomContent": {
+						"materials": [
+							"85% Bumbac Organic",
+							"15% Poliester Reciclat",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "cs",
+					"Name": "Unisex Hoodie",
+					"ShortDescription": "Ikonická unisex mikina s kapucí a vyšitým logem Nerd.",
+					"CustomContent": {
+						"materials": [
+							"85% Organická Bavlna",
+							"15% Recyklovaný Polyester",
+							"0% Keců"
+						]
+					}
+				}
+			],
+			"Variations": {
+				"Property": "color",
+				"LogicalLevel": "color",
+				"Products": [
+					{
+						"ID": "0002-1",
+						"Name": "Unisex Hoodie",
+						"VariationValues": [
+							{
+								"Value": "Black"
+							},
+							{
+								"LanguageID": "en",
+								"Value": "Black"
+							},
+							{
+								"LanguageID": "nl",
+								"Value": "Zwart"
+							},
+							{
+								"LanguageID": "de",
+								"Value": "Schwarz"
+							},
+							{
+								"LanguageID": "fr",
+								"Value": "Noir"
+							},
+							{
+								"LanguageID": "ro",
+								"Value": "Negru"
+							},
+							{
+								"LanguageID": "cs",
+								"Value": "Černá"
+							}
+						],
+						"TaxCode": "General Clothing",
+						"Type": {
+							"Stock": false
+						},
+						"Variations": {
+							"Property": "size",
+							"LogicalLevel": "SKU",
+							"Products": [
+								{
+									"ID": "0002-1-978020137905",
+									"Name": "Unisex Hoodie",
+									"VariationValues": [
+										{
+											"Value": "S"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020137905"
+									]
+								},
+								{
+									"ID": "0002-1-978020137906",
+									"Name": "Unisex Hoodie",
+									"VariationValues": [
+										{
+											"Value": "M"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020137906"
+									]
+								},
+								{
+									"ID": "0002-1-978020137907",
+									"Name": "Unisex Hoodie",
+									"VariationValues": [
+										{
+											"Value": "L"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020137907"
+									]
+								},
+								{
+									"ID": "0002-1-978020137908",
+									"Name": "Unisex Hoodie",
+									"VariationValues": [
+										{
+											"Value": "XL"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020137908"
+									]
+								},
+								{
+									"ID": "0002-1-978020137909",
+									"Name": "Unisex Hoodie",
+									"VariationValues": [
+										{
+											"Value": "XXL"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020137909"
+									]
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

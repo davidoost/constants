@@ -1,0 +1,194 @@
+{
+	"SystemID": "Insomnia",
+	"Products": [
+		{
+			"ID": "0005",
+			"Name": "Fisherman Beanie",
+			"Brand": "Nerd.",
+			"TaxCode": "Hats and Caps",
+			"Type": {
+				"Stock": false
+			},
+			"Content": [
+				{
+					"PublicationStatuses": [
+						"public"
+					],
+					"Images": [
+						{
+							"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/products/nerd/beanie_01.jpg",
+							"IsPrimaryImage": true
+						},
+						{
+							"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/products/nerd/beanie_02.jpg"
+						}
+					],
+					"CustomContent": {
+						"styling_advice": "a black firsherman beanie"
+					}
+				},
+				{
+					"LanguageID": "en",
+					"Name": "Fisherman Beanie",
+					"ShortDescription": "Fisherman beanie with embroidered Nerd logo.",
+					"CustomContent": {
+						"materials": [
+							"95% Ringspun Combed Cotton",
+							"5% Elastane",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "nl",
+					"Name": "Vissersmuts",
+					"ShortDescription": "Vissersmuts met geborduurd Nerd logo.",
+					"CustomContent": {
+						"materials": [
+							"95% Gekamd Katoen",
+							"5% Elastaan",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "de",
+					"Name": "Fischermann Beanie",
+					"ShortDescription": "Fischermann Beanie mit gesticktem Nerd logo.",
+					"CustomContent": {
+						"materials": [
+							"95% Ringgesponnene Baumwolle",
+							"5% Elastan",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "fr",
+					"Name": "Bonnet de pêcheur",
+					"ShortDescription": "Bonnet de pêcheur avec logo Nerd brodé.",
+					"CustomContent": {
+						"materials": [
+							"95% Coton Peigné Ringspun",
+							"5% Élasthanne",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "ro",
+					"Name": "Căciulă de pescar",
+					"ShortDescription": "Căciulă de pescar cu logo 'Nerd' brodat.",
+					"CustomContent": {
+						"materials": [
+							"95% Bumbac Tors",
+							"5% Elastan",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "cs",
+					"Name": "Rybářská čepice",
+					"ShortDescription": "Rybářská čepice s vyšitým logem Nerd.",
+					"CustomContent": {
+						"materials": [
+							"95% Česaná Bavlna Ringspun",
+							"5% Elastan",
+							"0% Keců"
+						]
+					}
+				}
+			],
+			"Variations": {
+				"Property": "color",
+				"LogicalLevel": "color",
+				"Products": [
+					{
+						"ID": "0005-1",
+						"Name": "Fisherman Beanie",
+						"VariationValues": [
+							{
+								"Value": "Black"
+							},
+							{
+								"LanguageID": "en",
+								"Value": "Black"
+							},
+							{
+								"LanguageID": "nl",
+								"Value": "Zwart"
+							},
+							{
+								"LanguageID": "de",
+								"Value": "Schwarz"
+							},
+							{
+								"LanguageID": "fr",
+								"Value": "Noir"
+							},
+							{
+								"LanguageID": "ro",
+								"Value": "Negru"
+							},
+							{
+								"LanguageID": "cs",
+								"Value": "Černá"
+							}
+						],
+						"TaxCode": "Hats and Caps",
+						"Type": {
+							"Stock": false
+						},
+						"Variations": {
+							"Property": "size",
+							"LogicalLevel": "SKU",
+							"Products": [
+								{
+									"ID": "0005-1-978020137916",
+									"Name": "Fisherman Beanie",
+									"VariationValues": [
+										{
+											"Value": "One Size"
+										},
+										{
+											"LanguageID": "en",
+											"Value": "One Size"
+										},
+										{
+											"LanguageID": "nl",
+											"Value": "One Size"
+										},
+										{
+											"LanguageID": "de",
+											"Value": "Eine Größe"
+										},
+										{
+											"LanguageID": "fr",
+											"Value": "Taille unique"
+										},
+										{
+											"LanguageID": "ro",
+											"Value": "Mărime universală"
+										},
+										{
+											"LanguageID": "cs",
+											"Value": "Jedna velikost"
+										}
+									],
+									"TaxCode": "Hats and Caps",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020137916"
+									]
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}

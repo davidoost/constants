@@ -1,0 +1,788 @@
+{
+	"SystemID": "Insomnia",
+	"Products": [
+		{
+			"ID": "0008",
+			"Name": "Unisex T-shirt",
+			"Brand": "Nerd.",
+			"TaxCode": "General Clothing",
+			"Type": {
+				"Stock": false
+			},
+			"Content": [
+				{
+					"PublicationStatuses": [
+						"public"
+					]
+				},
+				{
+					"LanguageID": "en",
+					"Name": "Unisex T-shirt",
+					"ShortDescription": "Unisex heavyweight t-shirt with embroidered Nerd logo.",
+					"CustomContent": {
+						"materials": [
+							"100% Organic Cotton",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "nl",
+					"Name": "Unisex T-shirt",
+					"ShortDescription": "Unisex heavyweight t-shirt met geborduurd Nerd logo.",
+					"CustomContent": {
+						"materials": [
+							"100% Organisch Katoen",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "de",
+					"Name": "Unisex T-shirt",
+					"ShortDescription": "Unisex heavyweight T-Shirt mit gesticktem Nerd-Logo.",
+					"CustomContent": {
+						"materials": [
+							"100% Bio-Baumwolle",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "fr",
+					"Name": "T-Shirt Unisexe",
+					"ShortDescription": "T-shirt épais unisexe avec logo Nerd brodé.",
+					"CustomContent": {
+						"materials": [
+							"100% Coton Organique",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "ro",
+					"Name": "Tricou unisex",
+					"ShortDescription": "Tricou unisex cu țesătură densă și logo 'Nerd' brodat.",
+					"CustomContent": {
+						"materials": [
+							"100% Bumbac Organic",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "cs",
+					"Name": "Unisex tričko",
+					"ShortDescription": "Unisex tričko vyšší gramáže s vyšitým logem Nerd.",
+					"CustomContent": {
+						"materials": [
+							"100% Organická Bavlna",
+							"0% Keců"
+						]
+					}
+				}
+			],
+			"Variations": {
+				"Property": "color",
+				"LogicalLevel": "color",
+				"Products": [
+					{
+						"ID": "0008-1",
+						"Name": "Unisex T-shirt",
+						"VariationValues": [
+							{
+								"Value": "Black"
+							},
+							{
+								"LanguageID": "en",
+								"Value": "Black"
+							},
+							{
+								"LanguageID": "nl",
+								"Value": "Zwart"
+							},
+							{
+								"LanguageID": "de",
+								"Value": "Schwarz"
+							},
+							{
+								"LanguageID": "fr",
+								"Value": "Noir"
+							},
+							{
+								"LanguageID": "ro",
+								"Value": "Negru"
+							},
+							{
+								"LanguageID": "cs",
+								"Value": "Černá"
+							}
+						],
+						"Content": [
+							{
+								"Images": [
+									{
+										"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/showcase/img/t-shirt_black_01.jpg",
+										"IsPrimaryImage": true
+									},
+									{
+										"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/showcase/img/t-shirt_black_02.jpg"
+									},
+									{
+										"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/showcase/img/t-shirt_black_03.jpg"
+									}
+								]
+							}
+						],
+						"TaxCode": "General Clothing",
+						"Type": {
+							"Stock": false
+						},
+						"Variations": {
+							"Property": "size",
+							"LogicalLevel": "SKU",
+							"Products": [
+								{
+									"ID": "0008-1-978020138100",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "S"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138100"
+									]
+								},
+								{
+									"ID": "0008-1-978020138101",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "M"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138101"
+									]
+								},
+								{
+									"ID": "0008-1-978020138102",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "L"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138102"
+									]
+								},
+								{
+									"ID": "0008-1-978020138103",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "XL"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138103"
+									]
+								},
+								{
+									"ID": "0008-1-978020138104",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "XXL"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138104"
+									]
+								}
+							]
+						}
+					},
+					{
+						"ID": "0008-2",
+						"Name": "Unisex T-shirt",
+						"VariationValues": [
+							{
+								"Value": "Red"
+							},
+							{
+								"LanguageID": "en",
+								"Value": "Red"
+							},
+							{
+								"LanguageID": "nl",
+								"Value": "Rood"
+							},
+							{
+								"LanguageID": "de",
+								"Value": "Rot"
+							},
+							{
+								"LanguageID": "fr",
+								"Value": "Rouge"
+							},
+							{
+								"LanguageID": "ro",
+								"Value": "Rosu"
+							},
+							{
+								"LanguageID": "cs",
+								"Value": "Červená"
+							}
+						],
+						"Content": [
+							{
+								"Images": [
+									{
+										"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/showcase/img/t-shirt_red_01.jpg",
+										"IsPrimaryImage": true
+									},
+									{
+										"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/showcase/img/t-shirt_red_02.jpg"
+									},
+									{
+										"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/showcase/img/t-shirt_red_03.jpg"
+									}
+								]
+							}
+						],
+						"TaxCode": "General Clothing",
+						"Type": {
+							"Stock": false
+						},
+						"Variations": {
+							"Property": "size",
+							"LogicalLevel": "SKU",
+							"Products": [
+								{
+									"ID": "0008-2-978020138105",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "S"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138105"
+									]
+								},
+								{
+									"ID": "0008-2-978020138106",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "M"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138106"
+									]
+								},
+								{
+									"ID": "0008-2-978020138107",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "L"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138107"
+									]
+								},
+								{
+									"ID": "0008-2-978020138108",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "XL"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138108"
+									]
+								},
+								{
+									"ID": "0008-2-978020138109",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "XXL"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138109"
+									]
+								}
+							]
+						}
+					},
+					{
+						"ID": "0008-3",
+						"Name": "Unisex T-shirt",
+						"VariationValues": [
+							{
+								"Value": "Green"
+							},
+							{
+								"LanguageID": "en",
+								"Value": "Green"
+							},
+							{
+								"LanguageID": "nl",
+								"Value": "Groen"
+							},
+							{
+								"LanguageID": "de",
+								"Value": "Grün"
+							},
+							{
+								"LanguageID": "fr",
+								"Value": "Vert"
+							},
+							{
+								"LanguageID": "ro",
+								"Value": "Verde"
+							},
+							{
+								"LanguageID": "cs",
+								"Value": "Zelená"
+							}
+						],
+						"Content": [
+							{
+								"Images": [
+									{
+										"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/showcase/img/t-shirt_green_01.jpg",
+										"IsPrimaryImage": true
+									},
+									{
+										"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/showcase/img/t-shirt_green_02.jpg"
+									},
+									{
+										"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/showcase/img/t-shirt_green_03.jpg"
+									}
+								]
+							}
+						],
+						"TaxCode": "General Clothing",
+						"Type": {
+							"Stock": false
+						},
+						"Variations": {
+							"Property": "size",
+							"LogicalLevel": "SKU",
+							"Products": [
+								{
+									"ID": "0008-3-978020138110",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "S"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138110"
+									]
+								},
+								{
+									"ID": "0008-3-978020138111",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "M"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138111"
+									]
+								},
+								{
+									"ID": "0008-3-978020138112",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "L"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138112"
+									]
+								},
+								{
+									"ID": "0008-3-978020138113",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "XL"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138113"
+									]
+								},
+								{
+									"ID": "0008-3-978020138114",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "XXL"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138114"
+									]
+								}
+							]
+						}
+					},
+					{
+						"ID": "0008-4",
+						"Name": "Unisex T-shirt",
+						"VariationValues": [
+							{
+								"Value": "Blue"
+							},
+							{
+								"LanguageID": "en",
+								"Value": "Blue"
+							},
+							{
+								"LanguageID": "nl",
+								"Value": "Blauw"
+							},
+							{
+								"LanguageID": "de",
+								"Value": "Blau"
+							},
+							{
+								"LanguageID": "fr",
+								"Value": "Bleu"
+							},
+							{
+								"LanguageID": "ro",
+								"Value": "Albastru"
+							},
+							{
+								"LanguageID": "cs",
+								"Value": "Modrá"
+							}
+						],
+						"Content": [
+							{
+								"Images": [
+									{
+										"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/showcase/img/t-shirt_blue_01.jpg",
+										"IsPrimaryImage": true
+									},
+									{
+										"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/showcase/img/t-shirt_blue_02.jpg"
+									},
+									{
+										"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/showcase/img/t-shirt_blue_03.jpg"
+									}
+								]
+							}
+						],
+						"TaxCode": "General Clothing",
+						"Type": {
+							"Stock": false
+						},
+						"Variations": {
+							"Property": "size",
+							"LogicalLevel": "SKU",
+							"Products": [
+								{
+									"ID": "0008-4-978020138115",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "S"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138115"
+									]
+								},
+								{
+									"ID": "0008-4-978020138116",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "M"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138116"
+									]
+								},
+								{
+									"ID": "0008-4-978020138117",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "L"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138117"
+									]
+								},
+								{
+									"ID": "0008-4-978020138118",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "XL"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138118"
+									]
+								},
+								{
+									"ID": "0008-4-978020138119",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "XXL"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138119"
+									]
+								}
+							]
+						}
+					},
+					{
+						"ID": "0008-5",
+						"Name": "Unisex T-shirt",
+						"VariationValues": [
+							{
+								"Value": "Purple"
+							},
+							{
+								"LanguageID": "en",
+								"Value": "Purple"
+							},
+							{
+								"LanguageID": "nl",
+								"Value": "Paars"
+							},
+							{
+								"LanguageID": "de",
+								"Value": "Lila"
+							},
+							{
+								"LanguageID": "fr",
+								"Value": "Violet"
+							},
+							{
+								"LanguageID": "ro",
+								"Value": "Mov"
+							},
+							{
+								"LanguageID": "cs",
+								"Value": "Fialová"
+							}
+						],
+						"Content": [
+							{
+								"Images": [
+									{
+										"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/showcase/img/t-shirt_purple_01.jpg",
+										"IsPrimaryImage": true
+									},
+									{
+										"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/showcase/img/t-shirt_purple_02.jpg"
+									},
+									{
+										"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/showcase/img/t-shirt_purple_03.jpg"
+									}
+								]
+							}
+						],
+						"TaxCode": "General Clothing",
+						"Type": {
+							"Stock": false
+						},
+						"Variations": {
+							"Property": "size",
+							"LogicalLevel": "SKU",
+							"Products": [
+								{
+									"ID": "0008-5-978020138120",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "S"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138120"
+									]
+								},
+								{
+									"ID": "0008-5-978020138121",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "M"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138121"
+									]
+								},
+								{
+									"ID": "0008-5-978020138122",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "L"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138122"
+									]
+								},
+								{
+									"ID": "0008-5-978020138123",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "XL"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138123"
+									]
+								},
+								{
+									"ID": "0008-5-978020138124",
+									"Name": "Unisex T-shirt",
+									"VariationValues": [
+										{
+											"Value": "XXL"
+										}
+									],
+									"TaxCode": "General Clothing",
+									"Type": {
+										"Stock": true
+									},
+									"Barcodes": [
+										"978020138124"
+									]
+								}
+							]
+						}
+					}
+				]
+			}
+		}
+	]
+}
