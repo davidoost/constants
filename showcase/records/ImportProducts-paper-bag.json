@@ -1,0 +1,96 @@
+{
+	"SystemID": "Insomnia",
+	"Products": [
+		{
+			"ID": "0009",
+			"Name": "Paper Bag",
+			"Brand": "Nerd.",
+			"TaxCode": "Gift Wrapping Costs",
+			"Type": {
+				"Stock": true
+			},
+			"Barcodes": [
+				"978220137917"
+			],
+			"Content": [
+				{
+					"PublicationStatuses": [
+						"public"
+					],
+					"Images": [
+						{
+							"ImageUrl": "https://raw.githubusercontent.com/davidoost/constants/main/products/nerd/bag.png",
+							"IsPrimaryImage": true
+						}
+					]
+				},
+				{
+					"LanguageID": "en",
+					"Name": "Paper Bag",
+					"ShortDescription": "Black paper bag for carry-out.",
+					"CustomContent": {
+						"materials": [
+							"100% Paper",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "nl",
+					"Name": "Papieren Zak",
+        			"ShortDescription": "Zwarte papieren zak om mee te nemen.",
+					"CustomContent": {
+						"materials": [
+							"100% Papier",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "de",
+					"Name": "Papiertüte",
+					"ShortDescription": "Schwarze Papiertüte zum Mitnehmen.",
+					"CustomContent": {
+						"materials": [
+							"100% Papier",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "fr",
+					"Name": "Sac en Papier",
+        			"ShortDescription": "Sac en papier noir pour emporter.",
+					"CustomContent": {
+						"materials": [
+							"100% Papier",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "ro",
+					"Name": "Pungă de Hârtie",
+					"ShortDescription": "Pungă de hârtie neagră pentru luat la pachet.",
+					"CustomContent": {
+						"materials": [
+							"100% Hârtie",
+							"0% Crap"
+						]
+					}
+				},
+				{
+					"LanguageID": "cs",
+					"Name": "Papírová Taška",
+        			"ShortDescription": "Černá papírová taška na jídlo s sebou.",
+					"CustomContent": {
+						"materials": [
+							"100% Papír",
+							"0% Keců"
+						]
+					}
+				}
+			]
+		}
+	]
+}
