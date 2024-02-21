@@ -3,10 +3,26 @@
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>{Title}</title>
+    <title>{{EmailTitle}}</title>
+    <subject>{{EmailSubject}}</subject>
     <style media="all" type="text/css">
-      .cta a:hover {
+      .default a {
+        background-color: #4743ad !important;
+      }
+      .default a:hover {
         background-color: #363384 !important;
+      }
+      .warning a {
+        background-color: #c47300 !important;
+      }
+      .warning a:hover {
+        background-color: #a35f00 !important;
+      }
+      .danger a {
+        background-color: #b4271f !important;
+      }
+      .danger a:hover {
+        background-color: #891d18 !important;
       }
 
       @media screen and (max-width: 600px) {
@@ -37,7 +53,7 @@
     >
       <tr
         height="240"
-        style="background-image: url({image}); background-position: center"
+        style="background-image: url(https://raw.githubusercontent.com/davidoost/constants/main/emails/header-{{EmailType}}.png); background-position: center"
       >
         <td style="padding: 0">
           <table
@@ -55,7 +71,7 @@
                   font-weight: 500;
                 "
               >
-                {Title}
+                {{Title}}
               </td>
             </tr>
             <tr>
@@ -67,7 +83,7 @@
                   font-weight: 200;
                 "
               >
-                {Subtitle}
+                {{Subtitle}}
               </td>
             </tr>
           </table>
@@ -82,18 +98,18 @@
             style="text-align: center"
           >
             <tr>
-              <td style="color: black; padding: 0">Hi {FirstName},</td>
+              <td style="color: black; padding: 0">Hi {{FirstName}},</td>
             </tr>
             <tr>
-              <td style="color: black; padding: 0">{MainText}</td>
+              <td style="color: black; padding: 0">{{MainText}}</td>
             </tr>
             <tr>
-              <td style="color: black; padding: 0">{CallToActionText}</td>
+              <td style="color: black; padding: 0">{{CallToActionText}}</td>
             </tr>
             <tr>
-              <td class="cta" style="padding: 0">
+              <td class="{{EmailType}}" style="padding: 0">
                 <a
-                  href="{url}"
+                  href="{{Url}}"
                   target="_blank"
                   style="
                     border-radius: 8px;
@@ -104,9 +120,8 @@
                     padding: 12px 24px;
                     text-decoration: none;
                     color: #ffffff;
-                    background-color: #4743ad;
                   "
-                  >{ButtonText}</a
+                  >{{ButtonText}}</a
                 >
               </td>
             </tr>
@@ -141,16 +156,16 @@
     >
       <tr>
         <td style="padding: 0">
-          You are receiving these e-mails because you are subscribed to {Tag}.
+          You are receiving these e-mails because you are subscribed to {{Tag}}.
         </td>
       </tr>
       <tr>
         <td style="padding: 0">
-          <a href="{TagUnsubscribeUrl}" style="color: #aeaeb2"
-            >Unsubscribe from {Tag}</a
+          <a href="{{TagUnsubscribeUrl}}" style="color: #aeaeb2"
+            >Unsubscribe from {{Tag}}</a
           >
           |
-          <a href="{UnsubscribeUrl}" style="color: #aeaeb2"
+          <a href="{{UnsubscribeUrl}}" style="color: #aeaeb2"
             >Unsubscribe from All</a
           >
         </td>
